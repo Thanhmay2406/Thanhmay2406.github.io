@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* style.css hoặc trong thẻ <style> trong HTML */
+body {
+    transition: background-color 0.5s ease, color 0.5s ease; /* Hiệu ứng chuyển đổi màu nền và màu chữ */
+}
+
+#avatar {
+    transition: border-color 0.5s ease; /* Hiệu ứng chuyển đổi cho border của avatar */
+}
+
+img {
+    transition: opacity 0.5s ease; /* Hiệu ứng chuyển đổi cho ảnh */
+}
